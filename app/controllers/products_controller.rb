@@ -13,7 +13,6 @@ class ProductsController < ApplicationController
 
     @product = Product.create(product_params)
     @product.save
-    @li = "This stuff"
     redirect_to products_path
   end
 
